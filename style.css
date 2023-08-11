@@ -4,30 +4,23 @@
   background-color: black;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 a {
   text-decoration: none;
-  margin: 15px;
+  margin: 10px;
 }
 
 .enlaces {
   list-style: none;
   font-family: "Ysabeau Infant", sans-serif;
   font-size: 35px;
-  margin: 15px;
   color: rgb(192, 89, 120);
-  padding-left: 135px;
+  background-color: black;
 }
 
 img {
-  width: 500px;
-  margin: 15px 0px 0px 15px;
-}
-
-.logo {
-  padding-bottom: 30px;
+  width: 350px;
 }
 
 h1 {
@@ -52,6 +45,12 @@ h2 {
 
 .historiatitle {
   font-size: 100px;
+}
+
+@media (max-width: 768px) {
+  .historiatitle {
+    font-size: 45px;
+  }
 }
 
 .hayley {
@@ -118,41 +117,29 @@ footer p {
   padding-top: 50px;
 }
 
-.contenedor {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  margin: 10px 0 10px 0;
-}
-
 .reproductor {
   padding-left: 100px;
 }
 
-.caja {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 20px;
-  height: auto;
-  justify-content: center;
-  align-items: center;
-}
-
 .parrafo {
-padding-left: 15px;
+  padding-left: 15px;
 }
 
 .carousel {
   background-color: black;
 }
 
-.carousel-inner {
-  width: 25%;
-}
-
 h3 {
   background-color: black;
+}
+
+.albums {
+  background-color: black;
+}
+
+.foto {
+  width: 30%;
+  align-items: center;
 }
 
 

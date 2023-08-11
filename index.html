@@ -17,17 +17,19 @@
     <header>
       <div class="container-fluid header">
         <div class="row">
-          <div class="col-md logo">
+          <div class="col-md-3 logo">
             <img src="./imagenes/logo.webp" alt="logo" />
           </div>
-        </div>
-        <div class="col-md enlaces">
-          <a href="#historia">Historia</a>
-          <a href="#miembros">Miembros</a>
-          <a href="#albums">Discografía</a>
-          <a href="https://www.paramore.net" target="_blank">Página Oficial</a>
-          <a href="https://store.paramore.net/" target="_blank">Tienda</a>
-          <a href="#redes">Redes Sociales</a>
+          <div class="col-md-9 enlaces">
+            <a href="#historia">Historia</a>
+            <a href="#miembros">Miembros</a>
+            <a href="#albums">Discografía</a>
+            <a href="https://www.paramore.net" target="_blank"
+              >Página Oficial</a
+            >
+            <a href="https://store.paramore.net/" target="_blank">Tienda</a>
+            <a href="#redes">Redes Sociales</a>
+          </div>
         </div>
       </div>
     </header>
@@ -141,8 +143,10 @@
       </div>
     </div>
     <div id="albums">
+      <div class="container-fluid albums">
+      <h1 class="historiatitle">Discografía</h1>
+      </div>
       <div class="container-fluid carousel">
-        <h1 class="historiatitle">Discografía</h1>
         <div id="carouselExampleCaptions" class="carousel slide">
           <div class="carousel-indicators">
             <button
@@ -165,9 +169,45 @@
               data-bs-slide-to="2"
               aria-label="Slide 3"
             ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="5"
+              aria-label="Slide 6"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="6"
+              aria-label="Slide 7"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="7"
+              aria-label="Slide 8"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="8"
+              aria-label="Slide 9"
+            ></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active foto">
               <img
                 src="./albums/allweknowisfalling/portada.jpeg"
                 class="d-block w-100"
@@ -177,7 +217,7 @@
                 <h3>All We Know Is Falling</h3>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item foto">
               <img
                 src="./albums/riot/portada.webp"
                 class="d-block w-100"
@@ -187,7 +227,7 @@
                 <h3>Riot!</h3>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item foto">
               <img
                 src="./albums/thefinalriot/portada.jpg"
                 class="d-block w-100"
@@ -197,7 +237,7 @@
                 <h3>The Final Riot!</h3>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item foto">
               <img
                 src="./albums/paramoreliveintheuk/portada.webp"
                 class="d-block w-100"
@@ -207,7 +247,7 @@
                 <h3>Paramore: Live in the UK</h3>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item foto">
               <img
                 src="./albums/brandneweyes/portada.jpg"
                 class="d-block w-100"
@@ -217,7 +257,7 @@
                 <h3>Brand New Eyes</h3>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item foto">
               <img
                 src="./albums/singles/portada.webp"
                 class="d-block w-100"
@@ -227,7 +267,7 @@
                 <h3>Singles</h3>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item foto">
               <img
                 src="./albums/paramore/portada.webp"
                 class="d-block w-100"
@@ -237,7 +277,7 @@
                 <h3>Paramore</h3>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item foto">
               <img
                 src="./albums/afterlaughter/portada.jpg"
                 class="d-block w-100"
@@ -247,7 +287,7 @@
                 <h3>After Laughter</h3>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item foto">
               <img
                 src="./albums/thisiswhy/portada.webp"
                 class="d-block w-100"
